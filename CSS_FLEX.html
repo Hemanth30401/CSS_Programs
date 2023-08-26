@@ -1,0 +1,60 @@
+<!Doctype Html>
+<html>
+	<head>
+		<style>
+			body{
+			margin:0px;
+				background-image:url("Cup1.jpg");
+				background-repeat:no-repeat;
+				background-size:cover;
+				
+			}
+			.flex-cont
+			{
+				background-color:black;
+				
+				height:100px;
+				margin:0px;padding:0px;
+				
+				display:flex;
+				flex-direction:row;
+				flex-wrap:wrap;
+				justify-content:center;
+				align-items:start; /*<!--start,end,center-->*/
+			}
+			.flex
+			{
+				background-color:rgb(222,11,222);
+				color:white;
+				padding:10px;
+				margin:10px;
+			}
+			#one{
+				order:2;
+				align-self:center;
+			}
+			#two{
+				order:4;
+				flex-grow:3;
+			}
+			#three{
+				order:1;
+			}
+			#four{
+				order:3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "flex-cont">
+			<div class="flex" >Home</div>
+			<div class="flex" >WC Schedule</div>
+			<div class="flex" >Points Table</div>
+			<div class="flex" id="four">Teams</div>
+			<div class="flex" id="one">Tournament Stats</div>
+			<div class="flex" id="two">About Us</div>
+			<div class="flex" id="three">Contact Us</div>
+			<div class="flex" id="four">Login/Sign Up</div>
+		</div>
+	</body>
+</html>

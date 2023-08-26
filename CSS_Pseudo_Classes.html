@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+	<head>
+		<style>
+			#b1{
+			text-align:justify; /*<!--center,justify-->*/
+			text-decoration:underline overline; /*<!--none,underline,overline,line-through-->*/
+			text-transform:capitalize; /*<!--capitalize,uppercase,lowercase-->*/
+			}
+			#b2{
+				text-decoration:none; 
+				color:red;
+				font-family:serif; /*<!--serif,sans-serif,cursive,monospace,fantasy-->*/
+				font-size:50px;
+				font-style:oblique; /*<!--normal,oblique,italic-->*/
+				font-weight:bolder;
+				}
+				span{
+					font-variant:small-caps; /*<!--small-caps,normal-->*/
+				}
+				a{
+				text-decoration:none;
+				}
+				a:link
+				{
+					color:blue;
+				}
+				a:visited{
+					color:lightgreen;
+				}
+				a:active
+				{
+					color:pink;
+				}
+				a:hover
+				{
+					text-decoration:underline;
+					background-color:red;
+				}
+				h1:first-child
+				{	
+					border-style:solid;
+					font-family:fantasy;
+					background-color:violet;
+					margin: 30px 30px 20px 20px;
+					padding:13px 44px 3px 44px;
+					border-radius:5px;
+					border-width:7px 7px;
+					border-color:teal lavender;
+					
+					text-transform:capitalize;
+					text-align:center;
+					font-variant:small-caps;
+				}
+				
+				img
+				{
+					opacity:0.5;
+				}
+				img:hover{
+					opacity:1;
+				}
+				input:focus{
+					background-color:lightblue;
+				}
+				textarea{
+					background-color:lightgreen;
+					}
+				textarea:hover{
+					background-color:lightblue;
+				}
+				textarea:focus{
+					background-color:pink;
+					}
+		</style>
+		
+	</head>
+	<body>
+		<p id="b1">India Chandrayaan-3 lands on moon in 2 days.</p>
+		<a id ="b2" href="#">Click Me</a>
+		<p id="b3">India Chandrayaan-3 lands on <span>moon</span> in 2 days.</p>
+		
+		<a  href="https://www.cricbuzz.com"  >Cricbuzz</a>
+		<a  href="https://www.icc-cricket.com/homepage" >ICC</a>
+		
+		<div><h1>WC <span>Schedule</span></h1>
+		<h1>WC Schedule</h1>
+		<h1>WC Schedule</h1>
+		<h1>WC Schedule</h1>
+		</div>
+		
+		<img src="ICC 2023 WC.jpg" width=500px alt="Image">
+		<form>
+			<label >First Name:</label>
+				<input type="text"><br><br>
+			<label >last Name:</label>
+				<input type="text"><br><br>
+				<textarea ></textarea>
+		</form>
+	</body>
+</html>
